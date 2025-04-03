@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <img src="images (2).jpg" width="100%">
+    <!-- <img src="images (2).jpg" width="100%"> -->
+    <picture>
+        <source srcset="images (2).jpg" media="(max-width:400px)">
+        <source srcset="images.jpg" media="(max-width:300px)">
+        <img src="images (2).jpg" alt="image" style="width: 100%;height: auto;">
+
+    </picture>
     
 </body>
 </html>
